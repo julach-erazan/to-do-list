@@ -1,0 +1,79 @@
+.todo-input {
+    margin-bottom: 10px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    height: 40px;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 5px;
+  }
+
+  .editInput{
+    flex: 1;
+    padding: 5px 2px 2px 5px;
+    font-size: 16px;
+    margin: 0 5px 0 0px;
+    border-radius: 0;
+    border: none;
+    height: 20px;
+  }
+  
+  .todo-list li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .todo-input {
+    margin-bottom: 10px;
+    display: flex;
+    background-color: #f2f2f2;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo-input input[type="text"] {
+    flex: 1;
+    padding: 5px 2px 2px 5px;
+    font-size: 16px;
+    margin: 0 10px 0 10px;
+    border-radius: 0;
+    border: none;
+    height: 20px;
+  }
+  
+  .todo-input button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px 0 0;
+  }
+  
+  .todo-input button:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-input button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  
